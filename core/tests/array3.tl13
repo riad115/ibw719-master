@@ -1,0 +1,28 @@
+
+program 
+  
+  var X [ 5 ] as int ;
+  var Y as int ;
+  var Z as int ;
+  var SUM as int ;
+ 
+begin 
+	Y := 0 ;
+	SUM := 0 ;
+	X [ 0 ] := 11 ;
+	X [ 1 ] := 12 ;
+	X [ 2 ] := 20 ;
+	X [ 3 ] := 10 ;
+	X [ 4 ] := 7 ;
+
+	
+	
+	while ( Y < 5 ) do
+	    Z := X [ Y ] ;
+		SUM := SUM + Z ;
+		Y := Y + 1 ;
+	end ;
+	
+	writeInt SUM ;
+	
+	end

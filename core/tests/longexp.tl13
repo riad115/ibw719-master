@@ -1,0 +1,11 @@
+program
+   var X as int ;
+   var Y as int ;
+begin
+   X := readInt ;
+   Y := readInt ;
+
+   writeInt ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( X - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ) - Y ) - X ;
+   writeInt X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X - ( Y - ( X ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ;
+   writeInt 1 - ( Y - ( 2 - ( Y - ( 3 - ( Y - ( 4 - ( Y - ( 5 - ( Y - ( 6 - ( Y - ( 7 - ( Y - ( 8 - ( Y - ( 9 - ( Y - ( 10 * ( Y - ( 11 - ( Y - ( 12 - ( Y - ( 13 - ( Y - ( 14 - ( Y - ( 15 div ( Y - ( 16 div ( Y - ( 17 ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ;
+end 

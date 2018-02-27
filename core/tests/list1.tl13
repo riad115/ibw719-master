@@ -1,0 +1,23 @@
+program 
+	
+	var LT :: List as int ; 
+begin 
+	LT ( 0 ) := 12 ;
+	LT ( 1 ) := 21 ;
+	LT ( 2 ) := 4 ;
+  	LT ( 3 ) := 7 ;
+	LT ( 4 ) := 9 ;
+	
+	
+	writeInt LT ( 0 ) + ( LT ( 1 ) + ( LT ( 2 ) + ( LT ( 3 ) +  LT ( 4 )  ) ) ) ;
+	writeInt LT ( 0 ) * LT ( 4 ) ;
+
+	
+	
+	writeInt LT ( 2 ) ;
+	
+	if ( LT ( 0 ) >= LT ( 1 ) ) then 
+		LT ( 0 ) := LT ( 1 ) ;
+		writeInt LT ( 4 ) ;
+	end ;
+end 

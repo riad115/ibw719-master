@@ -1,0 +1,7 @@
+program 
+	
+	var LT :: List as int ; 
+begin 
+	LT ( 0 ) := 121 ;
+	writeInt LT ( 0 ) ;
+end 

@@ -1,0 +1,9 @@
+
+
+program 
+	
+	var ARRAY [ 5 ] as int ; 
+begin 
+	ARRAY [ 0 ] := 121 ;
+	writeInt ARRAY [ 0 ] ;
+end 

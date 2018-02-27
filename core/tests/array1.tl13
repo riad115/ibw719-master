@@ -1,0 +1,23 @@
+program 
+	
+	var ARRAY [ 5 ] as int ; 
+begin 
+	ARRAY [ 0 ] := 12 ;
+	ARRAY [ 1 ] := 21 ;
+	ARRAY [ 2 ] := 4 ;
+  	ARRAY [ 3 ] := 7 ;
+	ARRAY [ 4 ] := 9 ;
+	
+	
+	writeInt ARRAY [ 0 ] + ( ARRAY [ 1 ] + ( ARRAY [ 2 ] + ( ARRAY [ 3 ] +  ARRAY [ 4 ]  ) ) ) ;
+	writeInt ARRAY [ 0 ] * ARRAY [ 4 ] ;
+
+	
+	
+	writeInt ARRAY [ 2 ] ;
+	
+	if ( ARRAY [ 0 ] >= ARRAY [ 1 ] ) then 
+		ARRAY [ 0 ] := ARRAY [ 1 ] ;
+		writeInt ARRAY [ 4 ] ;
+	end ;
+end 

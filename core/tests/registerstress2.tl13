@@ -1,0 +1,29 @@
+program
+var X as bool ;
+var X1 as int ; var X2 as int ; var X3 as int ; var X4 as int ; var X5 as int ; var X6 as int ;
+var X7 as int ; var X8 as int ; var X9 as int ; var X10 as int ; var X11 as int ; var X12 as int ;
+var X13 as int ; var X14 as int ; var X15 as int ; var X16 as int ; var X17 as int ; var X18 as int ;
+var X19 as int ; var X20 as int ; var X21 as int ; var X22 as int ; var X23 as int ; var X24 as int ;
+var X25 as int ; var X26 as int ; var X27 as int ; var X28 as int ; var X29 as int ; var X30 as int ;
+var X31 as int ; var X32 as int ;
+begin
+  
+  X1 := readInt ;
+  X2 := X1 + 1 ; X3 := X2 + 1 ; X4 := X3 + 1 ; X5 := X4 + 1 ;
+  X6 := X5 * 2 ; X7 := X6 * 2 ; X8 := X7 * 2 ; X9 := X8 * 2 ;
+  X10 := X9 + 1 ; X11 := X10 + 1 ; X12 := X11 + 1 ; X13 := X12 + 1 ;
+  X14 := X13 + 1 ; X15 := X14 + 1 ; X16 := X15 + 1 ;
+       
+  X17 := X16 + 1 ;
+  X18 := X17 + 1 ; X19 := X18 + 1 ; X20 := X19 + 1 ; X21 := X20 + 1 ;
+  X22 := X21 div 2 ; X23 := X22 div 2 ; X24 := X23 + 1 ; X25 := X24 + 1 ;
+  X26 := X25 + 1 ; X27 := X26 + 1 ; X28 := X27 + 1 ; X29 := X28 + 1 ;
+  X30 := X29 div 2 ; X31 := X30 + 1 ; X32 := X31 div 2 ;
+
+X := ( X1 * X2 + X3 * X4 ) * ( ( X5 - X6 ) - ( X7 - X8 ) ) + ( ( X9 - X10 ) + ( X11 - X12 ) ) div ( ( X13 * X14 ) * ( X15 * X16 ) )
+>= ( ( X17 + X18 ) + ( X19 + X20 ) ) div ( X21 div X22 - X23 div X24 ) - ( ( X25 + X26 ) - ( X27 + X28 ) ) * ( ( X29 div X30 ) div ( X31 div X32 ) ) ;
+
+if X then writeInt 1 ;
+else writeInt 0 ;
+end ;
+end 

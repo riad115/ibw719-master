@@ -1,0 +1,26 @@
+program 
+	
+	var LT :: List as int ; 
+begin 
+	LT ( 0 ) := 12 ;
+	LT ( 1 ) := 21 ;
+	LT ( 2 ) := 4 ;
+  	LT ( 3 ) := 7 ;
+	LT ( 4 ) := 9 ;
+	
+
+
+	LT ( 0 ) := LT ( 0 ) + LT ( 0 ) ;
+	LT ( 1 ) := LT ( 1 ) - LT ( 1 )  ;
+	LT ( 2 ) := LT ( 2 ) * LT ( 2 ) ;
+  	LT ( 3 ) := LT ( 3 ) div LT ( 3 ) ;
+	LT ( 4 ) := LT ( 4 ) mod LT ( 4 ) ; 
+	
+	writeInt LT ( 0 ) ;
+	writeInt LT ( 1 ) ;
+	writeInt LT ( 2 ) ;
+	writeInt LT ( 3 ) ;
+	writeInt LT ( 4 ) ;
+	
+	
+end 
